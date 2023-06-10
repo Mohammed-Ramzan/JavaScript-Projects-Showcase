@@ -115,7 +115,9 @@ header .column span {
 .piano-keys .key.hide span {
     display: none;
 }
+@media screen and (max-width: 700px){
 .wrapper {
   transform: rotate(90deg);
   margin-top: -50px;
+}
 }
