@@ -1,0 +1,31 @@
+    .clr {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      border: 1px solid;
+    }
+    #white {
+        background-color: #fff;
+    }
+    #black {
+      background-color: #000000;
+    }
+     #orange {
+      background-color: #f3c4d9;
+    }
+     #green {
+      background-color: #e3f4c4;
+    }
+     #pink {
+      background-color: #b4c5d6;
+    }
+    #color_changer {
+      text-align: right;
+    }
+    p {
+      text-align: justify;
+    }
+    .txt {
+      margin: 0px 5px;
+      margin-top: 150px;
+    }

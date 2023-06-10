@@ -1,0 +1,38 @@
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        .form {
+            margin: 20px auto;
+            width: 400px;
+        }
+        
+        .form input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        .form input[type="submit"] {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .thumbnail {
+            margin: 20px auto;
+            width: 400px;
+        }
+        
+        .thumbnail img {
+            max-width: 100%;
+        }

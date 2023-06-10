@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Signup Form</h2>
+    <form action="" onsubmit="return valid()" id="form">
+      <div class="input-data">
+        <input type="text" id="first-name" placeholder="Enter Your First Name">
+        <p id="error-first-name"></p>
+        <input type="text" placeholder="Enter Your Last Name" id="last-name">
+        <p id="error-last-name"></p>
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <p id="error-email"></p>
+        <input type="password" id="pass" placeholder="Write Your Password">
+        <p id="er-pass"></p>
+        <input type="password" placeholder="Confirm Password" id="con-pass">
+        <p id="err-pass"></p>
+        <input type="text" id="name" placeholder="Write Your Name">
+        <p class="error" id="er-name"></p>
+        <input type="submit">
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="all-screen">
+        <div class="start-screen">
+            <div class="img">
+                <img src="assets/chk.png" alt="">
+            </div>
+            <div class="start-content">
+                <div class="heading">
+                    <h1>Manage Your Daily Tasks</h1>
+                </div>
+                <div class="para">
+                    <p>Your Daily Task Helps You To acheived anything in life</p>
+                </div>
+                <div class="btn">
+                    <button class="start-btn">Get started &rarr;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-screen">
+            <div class="home-content content strt">
+                <div class="home-nav">
+                    <div class="nav-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Homepage</h3>
+                    <div class="nav-icon">
+                        <i class="fa-solid fa-hourglass-end"></i>
+                    </div>
+                </div>
+
+                <div class="progress-summary">
+                    <p class="progress-heading">Today's progress summary</p>
+                    <p class="progress-tasks">15 Tasks</p>
+                    <label>Progress <span class="progress-percent">45</span>%</label>
+                    <progress value="45" max="100" class="progress"></progress>
+                </div>
+                <div class="today-task">
+                    <p class="task-content">Today's Task</p>
+                    <p class="see-all">See All</p>
+                </div>
+                <div class="task-detail">
+                   
+                   
+                </div>
+            </div>
+            <div class="home-icon">
+                <i class="fa-solid fa-house icon active"></i>
+            </div>
+
+            <div class="list content">
+            <div class="list-header">
+                <div class="nav-icon">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h3>Upcoming Tasks</h3>
+                <div class="nav-icon">
+                    <i class="fa-solid fa-hourglass-end"></i>
+                </div>
+            </div>
+            <div class="today">Today</div>
+            <div class="task-detail">
+                
+                
+            </div>
+            </div>
+            <div class="list-icon">
+                <i class="fa-solid fa-list-check icon"></i>
+            </div>
+
+
+            <div class="alarm content">
+                <h2>This is alarm</h2>
+            </div>
+            <div class="alarm-icon">
+                <i class="fa-solid fa-bell icon"></i>
+            </div>
+
+            <div class="user content">
+                <h2>This is user</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, in!</p>
+            </div>
+            <div class="user-icon">
+                <i class="fa-solid fa-bars-progress icon"></i>
+            </div>
+
+            <div class="footer"></div>
+        </div>
+        <div class="add">
+            <div class="add-content">
+                <div class="add-header">
+                    <p class="back"><i class="fa-solid fa-chevron-left"></i></p>
+                    <h3 class="add-heading">Create New Task</h3>
+                    <p class="add-blank">Blank</p>
+                </div>
+                <p class="add-task">Task Name</p>
+                <input type="text" placeholder="UI design" class="taskName" required>
+                <p class="add-task">Category</p>
+                <div class="category">
+                    <div class="category-name one">
+                        <p>Personal task</p>
+                    </div>
+                    <div class="category-name two active">
+                        <p>Work task</p>
+                    </div>
+                    <div class="category-name three">
+                        <p>Social task</p>
+                    </div>
+                </div>
+                <div class="date">
+                    <p class="date-time add-task">Date & Time</p>
+                    <div id="calendar"></div>
+                    <div id="add-time">
+                        <div class="task-inputs-labels">
+                            <label for="start-time">Start time</label><label for="end-time">End time</label>
+                        </div>
+                        <div class="task-inputs">
+                            <input type="time" id="start-time" name="start-time" required>
+                            <input type="time" id="end-time" name="end-time" required>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <div class="desc-heading">description</div>
+                        <textarea placeholder="Research about designing app and completing core..." id="textarea"
+                            cols="5" rows="3" required></textarea>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="add-task-btn" onclick="addTask()">Create Task</button>
+                </div>
+            </div>
+            <i class="fa-regular fa-plus"></i>
+        </div>
+
+        <div class="task-full-data">
+            <h1>hay</h1>
+        </div>
+        <!-- Timer Start -->
+        <div class="stopwatch">
+            <div class="timer-header">
+                <p class="back"><i class="fa-solid fa-chevron-left"></i></p>
+                <div class="timer-heading">
+                    <h3>Timer</h3>
+                </div>
+                <p class="timer-stopwatch"><i class="fa-solid fa-stopwatch"></i></p>
+            </div>
+            <div class="timer">
+                <div class="timer-data">
+                    <div class="inputs">
+                        <button class="inp" id="hr">00</button>
+                        <span class="colon">:</span>
+                        <button class="inp active" id="min">00</button>
+                        <span class="colon">:</span>
+                        <button class="inp" id="sec">00</button>
+                    </div>
+                    <div class="labels">
+                        <div class="h">h</div>
+                        <div class="m">m</div>
+                        <div class="s">s</div>
+                    </div>
+
+                    <div class="buttons">
+                        <input type="button" value="7" class="value">
+                        <input type="button" value="8" class="value">
+                        <input type="button" value="9" class="value">
+                        <input type="button" value="4" class="value">
+                        <input type="button" value="5" class="value">
+                        <input type="button" value="6" class="value">
+                        <input type="button" value="1" class="value">
+                        <input type="button" value="2" class="value">
+                        <input type="button" value="3" class="value">
+                        <span class="useless"><i class="fa-solid fa-delete-right"></i></span>
+                        <input type="button" value="0" class="value zero">
+                        <div class="btn-del-icon"><i class="fa-solid fa-delete-left"></i></div>
+                    </div>
+                </div>
+                <div class="time"></div>
+                <div class="video">
+                    <i class="fa-sharp fa-solid timer-play-icon fa-play"></i>
+                    <div class="timer-stop">
+                        <i class="fa-solid timer-stop-icon fa-stop"></i>
+                        <div class="one-add">1<span class="timer-plus">+</span></div>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stop Watch html Start -->
+        <div class="stopwatch-container">
+            <div class="timer-header">
+                <p class="stopwatch-back"><i class="fa-solid fa-chevron-left"></i></p>
+                <div class="timer-heading">
+                    <h3>StopWatch</h3>
+                </div>
+                <p class="blank"></p>
+            </div>
+            <p id="stopwatch">00 : 00</p>
+            <div class="stopwatch-start-end">
+                <input type="range" id="range" class="range-add" min="20" max="90" value="30">
+                <i class="fa-solid fa-rotate-right" onclick="reset()"></i>
+                <i class="fa-solid fa-maximize"></i>
+                <i class="fa-sharp fa-solid fa-play stopwatch-play" onclick="startStopwatch()"></i>
+                <i class="fa-solid fa-stop stopwatch-stop" onclick="stopTimer()"></i>
+            </div>
+        </div>
+
+        
+        <script src="script/main.js"></script>
+        <script src="script/todo_add_data_pre.js"></script>
+        <script src="script/timer_stopwatch.js"></script>
+</body>
+
+</html>

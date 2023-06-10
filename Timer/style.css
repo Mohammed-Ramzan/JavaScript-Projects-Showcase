@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: lightblue;
+}
+#timer {
+  display: flex;
+  color: white;
+  gap: 5px;
+}
+#hr, #min, #sec, #mlsec{
+  font-size: 60px;
+  color: red;
+}
+
+#hrw, #minw, #secw{
+  font-size: 20px;
+  margin-top: 34px;
+  margin-left: -4px;
+  color: rebeccapurple;
+}
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#btns {
+  margin-top: 20px;
+
+}
+button {
+  padding: 10px 25px;
+  margin: 0 5px;
+ color: white;
+ font-size: 20px;
+ border-radius: 20px;
+ cursor: pointer;
+}
+#start {
+  background-color: green;
+
+}
+#stop {
+  background-color: blue;
+}
+#reset {
+  background-color: red;
+}
+.type {
+  width: 100px;
+}
+.in {
+  width: 100px;
+}

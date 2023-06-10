@@ -1,0 +1,34 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      list-style: none;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin: 50px;
+      color: red;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: black;
+      padding: 10px 0;
+    }
+
+    li {
+      color: white;
+    }
+
+    p {
+      margin-bottom: 50px;
+    }
+
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }

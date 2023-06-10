@@ -1,0 +1,55 @@
+    .progress-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.step {
+  width: 25%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #aaa;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0;
+  
+}
+
+.step.active {
+  color: #333;
+  border-color: #333;
+  transition: .5 ease-in;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+button:hover {
+    background-color: #068f0a;
+}
+button:disabled {
+  background-color: #ddd;
+  color: #aaa;
+  cursor: default;
+}
