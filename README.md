@@ -1,13 +1,13 @@
-# 50 Projects in 50 Days - HTML/CSS and JavaScript
+# Javascript Projects Showcase - HTML/CSS and JavaScript
 
 Welcome to the Project Showcase! This repository features a collection of JavaScript projects designed to showcase the versatility and power of the language. Whether you're a beginner or an experienced developer, you'll find a variety of projects to explore and learn from.
 
 
 |  #  | Project                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 01  | [Expanding Cards](https://github.com/bradtraversy/50projects50days/tree/master/expanding-cards)                             | [Live Demo](https://50projects50days.com/projects/expanding-cards/)               |
-| 02  | [Progress Steps](https://github.com/bradtraversy/50projects50days/tree/master/progress-steps)                               | [Live Demo](https://50projects50days.com/projects/progress-steps/)                |
-| 03  | [Rotating Navigation Animation](https://github.com/bradtraversy/50projects50days/tree/master/rotating-nav-animation)                       | [Live Demo](https://50projects50days.com/projects/rotating-navigation-animation/) |
+| 01  | [Analog Clock](https://github.com/bradtraversy/50projects50days/tree/master/expanding-cards)                             | [Live Demo](https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Analog%20Clock/)               |
+| 02  | [Brain Training App](https://github.com/bradtraversy/50projects50days/tree/master/progress-steps)                               | [Live Demo](https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Brain%20Training%20App/)                |
+| 03  | [Calculator](https://github.com/Mohammed-Ramzan/JavaScript-Projects-Showcase/tree/main/Calculator)                       | [Live Demo](https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Calculator/) |
 | 04  | [Hidden Search Widget](https://github.com/bradtraversy/50projects50days/tree/master/hidden-search)                          | [Live Demo](https://50projects50days.com/projects/hidden-search-widget/)          |
 | 05  | [Blurry Loading](https://github.com/bradtraversy/50projects50days/tree/master/blurry-loading)                               | [Live Demo](https://50projects50days.com/projects/blurry-loading/)                |
 | 06  | [Scroll Animation](https://github.com/bradtraversy/50projects50days/tree/master/scroll-animation)                           | [Live Demo](https://50projects50days.com/projects/scroll-animation/)              |
