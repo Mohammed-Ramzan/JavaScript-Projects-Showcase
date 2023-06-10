@@ -1,17 +1,37 @@
-# JavaScript-Projects-Showcase
-Welcome to the JavaScript Projects Showcase repository! This repository serves as a collection of innovative and practical JavaScript projects developed to showcase my expertise.
-
 ## Project Showcase
 
 Welcome to the Project Showcase! This repository features a collection of JavaScript projects designed to showcase the versatility and power of the language. Whether you're a beginner or an experienced developer, you'll find a variety of projects to explore and learn from.
 
 ### Table of Contents
-| #          | Project    | Live Demo   |
-|:----------:|:----------:|:----------:|
-| 01         | <a target="_blank" href="https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Analog%20Clock/">Analog Clock</a>     | <a target="_blank" href="https://mohammed-ramzan.github.io/JavaScript-Projects-Showcase/Analog%20Clock/">Live Demo</a>    |
-| Cell 4     | Cell 5     | Cell 6     |
 
-
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Number</th>
+        <th>Projects</th>
+        <th>Live Demo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Project 1</td>
+        <td><a class="demo-link" href="#">Demo</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Project 2</td>
+        <td><a class="demo-link" href="#">Demo</a></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Project 3</td>
+        <td><a class="demo-link" href="#">Demo</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Feel free to explore the projects by clicking on the respective live demo links.
 
@@ -36,4 +56,54 @@ We welcome contributions from the developer community to make this repository ev
 
 We appreciate your contributions and collaborative efforts in enhancing this project showcase.
 
+## License
 
+This repository is licensed under the [MIT License](LICENSE).
+
+<style>
+.table-container {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}
+.demo-link {
+  color: blue;
+}
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+  thead {
+    display: none;
+  }
+  td {
+    display: block;
+    text-align: right;
+  }
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 70px;
+  }
+  .demo-link {
+    display: block;
+    text-align: right;
+  }
+}
+</style>
