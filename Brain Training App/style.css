@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #303030;
+    overflow: hidden;
+}
+
+.colors {
+    width: 98vw;
+    height: 45vh;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: .12rem;
+    text-transform: capitalize;
+    user-select: none;
+}
+
+.result {
+    display: none;
+}
+
+.result p {
+    color: red;
+    font-size: 2.6rem;
+    user-select: none;
+
+}
+
+.buttons {
+    height: 43vh;
+    width: 98vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 48vw;
+    height: 21vh;
+    margin: .14rem auto;
+    text-align: center;
+    background: #4a4a4a;
+    outline: none;
+    border: none;
+    color: #f0f0f0;
+    font-size: 1.7rem;
+    user-select: none;
+}
+
+.main {
+    height: 11vh;
+    width: 97vw;
+    position: relative;
+    user-select: none;
+}
+
+.main .timer,
+.main .heading,
+.main .tap-res {
+    font-size: 1.9rem;
+    color: #f0f0f0;
+}
+
+.main .timer {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+.main .heading {
+    text-align: center;
+    padding: 4px 0;
+    padding-left: 24px;
+}
+
+.main .tap-res {
+    position: absolute;
+    left: 4px;
+    bottom: 1px;
+}
+
+.start {
+    display: none;
+    margin: 0 auto;
+    margin-top: 14rem;
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background: black;
+    color: lime;
+    padding: 15px 20px;
+}
+
+.scr {
+    background: #f0f0f0;
+    margin: .4rem 0;
+    padding: 5px 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.clock {
+
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid #f1f1f1;
+}
+
+.hand {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: #eee7e7;
+    border-radius: 5px;
+    transform-origin: bottom;
+    z-index: 999;
+}
+
+.hour {
+    height: 60px;
+    width: 10px;
+    top: 100px;
+}
+
+.minute {
+    height: 80px;
+    width: 5px;
+    top: 80px;
+}
+
+.seconds {
+    height: 90px;
+    width: 3px;
+    top: 70px;
+}
