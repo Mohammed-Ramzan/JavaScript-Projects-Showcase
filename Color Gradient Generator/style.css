@@ -1,0 +1,113 @@
+     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      overflow: hidden;
+     }
+     body {
+     background: linear-gradient(to right, #7601AD, #2CA3ED );
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      place-items: center;
+     }
+     .wrapper {
+      width: 420px;
+      height: 450px;
+      border: 1px solid grey;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 10px 10px 5px 0px #383838bf;
+-webkit-box-shadow: 10px 10px 5px 0px #383838bf;
+-moz-box-shadow: 10px 10px 5px 0px #383838bf;
+     }
+     
+     .wrapper .box {
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(to right, #7601AD, #2CA3ED );
+      border-radius: 10px;
+      border: 2px solid #cabcbc;
+     }
+     .main {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0;
+     }
+     .main .directions, .main .colors{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     }
+     .main .colors .input-colors {
+      display: flex;
+      gap: 3px;
+     }
+     .main .colors input {
+      width: 50px;
+      height: 30px;
+      border-radius: 5px;
+      outline: none;
+      border: .5px solid #f0f0f0;
+     }
+     .main p {
+      margin: 5px;
+      font-weight: bold;
+     }
+     .main select {
+      padding: 5px 3px;
+      outline: none;
+      border-radius: 5px;
+      text-transform: capitalize;
+     }
+     textarea {
+      width: 100%;
+      height: 70px;
+      font-size: 16px;
+      padding: 10px;
+      line-height: 22px;
+      resize: none;
+      border-radius: 5px;
+      outline: none;
+      color: #413f3f;
+      margin: 5px;
+     }
+     .btns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+     }
+     button {
+      font-weight: bold;
+      padding: 12px 20px;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+     }
+     .copy {
+      background-color: #a122db;
+      color: #fff;
+     }
+     .copy:hover {
+      background-color: #7701ad;
+     }
+     .refresh {
+      background-color: transparent;
+      border: 2px solid #a122db;
+      color: #a122db;
+     }
+     .refresh:hover {
+      background-color: #a122db;
+      color: #fff;
+     }
+
+     @media screen and (max-width: 400px) {
+        .wrapper {
+        width: 320px;
+        height: 450px;
+        }
+     }
